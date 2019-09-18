@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input {
+    text-align: center;
+    margin: 100px 0;
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 300px;
+    background: #e2e2e2;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;    
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background: #e2e2e2;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+
+}
+
+.display {
+    text-align: center;
+}
