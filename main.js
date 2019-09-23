@@ -16,11 +16,9 @@ const date6 = document.querySelector('.date6');
 fetch('https://api.openweathermap.org/data/2.5/forecast?id=5392171&units=imperial&appid=f9d41396ea02e34115db311c180a8034')
     .then(response => response.json())
     .then(data => {
-       //const nameValue = data['name'];
         const tempValue = data['list'][0]['main']['temp'];
-        //const tempValue1Hr = data['list'][1]['main']['temp'];
         const descValue = data['list'][0]['weather'][0]['description'];
-        const dateNowVal = data['list'][0]['dt']
+        const dateNowVal = data['list'][0]['dt']   
 
         const temp3HrValue = data['list'][1]['main']['temp'];
         const desc3HrValue = data['list'][1]['weather'][0]['description'];
@@ -31,16 +29,16 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?id=5392171&units=imperia
         const date6Val = data['list'][2]['dt']
 
         //name.innerHTML = nameValue;
-        temp.innerHTML = 'Temp now: ' + tempValue;
+        temp.innerHTML = 'Temp now: ' + '<span class="bigger">' + tempValue + '</span class="bigger">';
         dateNow.innerHTML = new Date( dateNowVal * 1000);
-        desc.innerHTML = 'Description: ' + descValue;
+        desc.innerHTML = 'Description: ' + '<span class="bigger">' + descValue + '</span class="bigger">';
 
-        temp3Hr.innerHTML = 'Temp in 3 Hours: ' + temp3HrValue;
-        desc3Hr.innerHTML = 'Description in 3 hours: ' + desc3HrValue;
+        temp3Hr.innerHTML = 'Temp in 3 Hours: ' + '<span class="bigger">' + temp3HrValue + '</span class="bigger">';
+        desc3Hr.innerHTML = 'Description in 3 hours: ' + '<span class="bigger">' + desc3HrValue + '</span class="bigger">';
         date3.innerHTML = new Date( date3Val * 1000 )
 
-        temp6Hr.innerHTML = 'Temp at pick up: ' + temp6HrValue;
-        desc6Hr.innerHTML = 'Description at pick up: ' + desc6HrValue;
+        temp6Hr.innerHTML = 'Temp at pick up: ' + '<span class="bigger">' + temp6HrValue + '</span class="bigger">';
+        desc6Hr.innerHTML = 'Description at pick up: ' + '<span class="bigger">' + desc6HrValue + '</span class="bigger">';
         date6.innerHTML = new Date( date6Val * 1000 );
     })
 

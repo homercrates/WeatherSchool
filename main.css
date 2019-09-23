@@ -33,3 +33,13 @@ input[type="submit"]{
 .display {
     text-align: center;
 }
+
+.chunkWrapper {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.bigger {
+    font-weight: bold;
+}
