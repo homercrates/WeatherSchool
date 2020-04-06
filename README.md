@@ -13,4 +13,6 @@ I wrote this using a weather api. It is a simple site I configured so that in th
 
 Simple solution using HTML CSS and JavaScript
 
+![weatherschool](https://user-images.githubusercontent.com/5151395/78602703-c008d880-780b-11ea-85ad-c197d7d13634.jpg)
+
 [Hosted here at esemuu.com](https://www.esemuu.com/WeatherSchool)
