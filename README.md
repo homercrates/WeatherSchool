@@ -6,7 +6,7 @@ I wrote this using a weather api. It is a simple site I configured so that in th
 
     It displays: 
     | the weather now | the weather in 3 hours time | the weather in 6 hours at school pick up|
-    | --------------- | --------------------------- | --------------------------------------- |
+    | --------------- | :-------------------------: | --------------------------------------: |
     | What the kid    | What kind of temperatures   | When it is time to pick up the kid      |
     | should wear     | will there be at snack      | will be raining should I bring an       |
     | going to school | and later lunch time        | umbrella?                               |
